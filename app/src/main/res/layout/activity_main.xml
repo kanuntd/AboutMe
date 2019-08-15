@@ -33,7 +33,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/nickname_text" style="@style/NameStyle"
             android:textAlignment="center" android:visibility="gone"
-            android:text="" />
+            android:text=""
+            android:background="@color/colorAccent"
+            android:paddingBottom="@dimen/small_padding"
+
+    />
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
